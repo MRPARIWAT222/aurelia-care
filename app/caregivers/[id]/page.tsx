@@ -81,14 +81,16 @@ const caregivers = {
   },
 }
 
-export default function CaregiverProfilePage({
+export default async function CaregiverProfilePage({
   params,
 }: {
-  params: { id: string }
+  params: Promise<{ id: string }>
 }) {
 
+  const { id } = await params
+
   const caregiver =
-    caregivers[params.id as keyof typeof caregivers]
+    caregivers[Number(id) as keyof typeof caregivers]
 
   return (
     <main className="min-h-screen bg-[#F8F5EF] px-8 lg:px-14 py-16">
