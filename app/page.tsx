@@ -39,12 +39,12 @@ export default function HomePage() {
             </span>
           </div>
 
-          <h1 className="text-6xl lg:text-8xl leading-[0.95] font-serif text-[#1C2B39]">
-            Elegant
+          <h1 className="text-5xl lg:text-7xl leading-[1.05] font-serif text-[#1C2B39]">
+            ดูแลทุกลมหายใจ
             <br />
-            Healthcare
+            ด้วยหัวใจ
             <br />
-            at Home
+            ระดับพรีเมียม
           </h1>
 
           <p className="mt-10 text-lg lg:text-xl text-gray-600 leading-relaxed max-w-2xl">
